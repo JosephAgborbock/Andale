@@ -1,0 +1,408 @@
+.body{min-height:200vh;}
+.navbar-default{
+  transition: 300ms ease;
+  background: transparent;
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-left: 20px;
+}
+
+.hero {
+	height: 90vh;
+	border: 1px solid #bebbbb;
+	background-image: linear-gradient(to bottom left, rgba(220, 162, 190, 0.2), rgba(197, 197, 197, 0.2)),  
+	url('images/hero.png');
+	background-position: none;
+	background-size: cover;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	padding: 0px;	
+}
+
+.navbar{
+  padding: 14px 0px;
+  height: 80px;
+  background-color: solid color;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+.navbar-header .page-scroll {
+   padding-left: 20px;
+   padding-top: 0px;
+   font-family: sans-serif;
+}
+
+.nav li{
+	background-color: transparent !important;
+	color: #fff;
+    transition: color 1s ease 0s;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*Affixed to top*/
+.affix{
+	background: #ffffff;
+	padding: 0px 0px!important; 
+	width: 100%;
+	transition-delay: 0s;
+	height: 70px;
+	margin: 0px;
+	transition-duration: 0.3s;
+	transition-property: all;
+	transition-timing-function: ease;
+}
+
+.top-header-section {
+	text-decoration-style: inline-block;
+	color: #443959;
+	font-size: 20px;
+}
+.main-text {
+	text-align: left;
+	margin-top: 20%;
+	font-size: 50px;
+	color: #6666ff;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+
+.subtext{
+    text-align: left;
+    padding-left: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.logo-text:link,
+.logo-text:visited{
+	background-color: #4336fe;
+    color: #4336fe;
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.nav navbar-nav navbar-right {
+	 background-color: #0a1269;
+}
+
+.navbar-default .navbar-brand {
+	color: #180b8bec;
+	padding-right: 30px;
+}
+
+.navbar-custom .nav li a {
+    font-weight: 400;
+    letter-spacing: none;
+
+}
+
+.navbar-custom .nav li a, .navbar-custom .navbar-toggle {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #6666ff;
+    background-color: none;
+	text-transform: capitalize;
+}
+
+.navbar-custom .nav li a, .navbar-custom .navbar-toggle:hover {
+	color: none;
+}
+
+#div.pull-right{
+	padding-left: 20px;
+	text-align: center;
+}
+
+.navbar-brand page-scroll {
+	padding-right: 20px;
+	line-height: 20px;
+}
+
+.container-fluid {
+	padding-left: 10px;
+}
+
+#mainNav.navbar navbar-custom navbar-default navbar-fixed-top {
+	margin: 0px;
+}
+
+#div.row{
+	 padding-right: 20%;
+}
+
+#about-section.main-section{
+	padding-top: 15px;
+}
+
+.top-box {
+	height: 29vh;
+	margin-top: -25px;
+	text-align: center;
+	padding-left: 10px;
+	border-spacing: 10px;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: rgb(110, 101, 101);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-menu {
+    line-height: 10px;
+    padding-top: 15px;
+}
+
+.card-title {
+	font-size: 20px;
+	color:#5d5d5d;
+}
+
+
+.card-text{
+	padding-right: 15px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+.card-info {
+	color: #000;
+	font-family: dinpro;
+	margin-bottom: 30px;
+	padding-top: 20px;
+}
+
+.card{
+	text-align: left;
+	margin-left: 20px;
+	font-size: 18px;
+	margin-bottom: 0%;
+	padding-top: 10px;
+	padding-right: 15px;
+	color: white;
+	padding-right: 15px;
+	padding-left: 10px;
+}
+
+.card-header {
+    color: #3359df;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: dinpromedium;
+}
+
+.card-footer {
+	padding-bottom: 20%;
+	padding-top: 10px;
+	margin-left: 60px;
+	font-family: sans-serif;
+	font-size: 18px;
+	border-spacing: 10px;
+}
+
+.chevron {
+	padding-left: 20px;
+	color: #f0e7e7;
+	padding-top: 10px;
+}
+
+#col1.col-md-4 {
+	background-color: #6600cc;
+	background-size: cover;
+	text-align: left;
+	padding-top: 10px;
+	color: #000;
+}
+
+#col2.col-md-4 {
+	background-color: #1f7a7a;
+	background-size: cover;
+	padding-right: 15px;
+	text-align: left;
+	color: white;
+	padding-top: 10px;
+}
+
+#col3.col-md-4 {
+	background-color: #3359df;
+	background-size: cover;
+	padding: 10 20 30px;
+	text-align: left;
+	color: white;
+}
+
+.partner {
+	height: 25vh;
+	text-align: center;
+	background-color: #e4ebf1;
+	padding-top: 40px;
+	margin-left: 0px;
+	padding-left: 10px; 
+}	
+
+ .getstarted{
+    background-image: linear-gradient(to bottom right, rgba(51, 89, 223, 0.5), rgba(51, 89, 223, 0.5)), url('images/Foot-Advert.jpg');
+	background-color: #3359df;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px;
+}
+
+.text{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.back{
+	height: 34vh;
+	background-color: #e4ebf1;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.backby {
+	text-align: center;
+}
+
+#btn {
+	padding: 20px; 
+	margin-left: 49%;
+	border-width: 2px;
+	color: rgb(0, 0, 0);
+	height: 55px;
+}
+
+.footer-section{
+	background-color: #000000;
+	color: #ffff;
+	padding-top: 45px;
+	padding-left: 30px;
+}
+
+.footermenu{
+	padding-top: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+	line-height: 23px;
+	font-style: normal;
+	text-transform: none;
+	text-anchor: none;
+}
+
+.col-sm-3 {
+	font-size: 15px;
+	margin-bottom: 0;
+}
+
+ .start-btn {
+ 	display: flex;
+ 	justify-content: center;
+ }
+
+ .custom-btn {
+ 	border-radius: 0;
+ 	border: transparent;
+ 	text-transform: uppercase;
+ 	padding: 15px 35px 15px 35px;
+ 	margin: 30px 0 0 0;
+ }
+
+ .custom-btn:focus {
+ 	outline: 0;
+ }
+
+ .custom-btn:hover {
+ 	color: #000;
+ 	background-color: #fff;
+ 	border: transparent;
+ }
+
+ .custom-primary {
+ 	background-color: #6666ff;
+ 	color: #fff;
+ 	padding: 10px;
+ 	text-transform: uppercase;
+ 	border-radius: 0;
+ }
+
+ .custom-primary:hover {
+ 	color: #fff;
+ }
+
+ .footer-menu-list {
+	list-style-type: none;
+	color: #fff;
+}
+
+.footer-menu-list .list-item a{
+	text-decoration: none;
+	color: #9a9a9a;
+}
+.footer-menu-list .list-item a:hover{
+	color: #6666ff;
+}
+.copy-right a{
+	text-align: center;
+	padding: 20 30px;
+	color: #fff;
+	text-decoration: underline;
+}
+.footer-condition {
+	text-align: center;
+	color: #fff;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
